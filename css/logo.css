@@ -1,0 +1,9 @@
+.logo{
+    height: 76px;
+    width: 164px;
+    color: var(--main-bg-color)
+}
+
+.logo__second{
+    color: var(--main-color)
+}
