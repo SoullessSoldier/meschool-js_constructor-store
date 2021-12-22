@@ -17,9 +17,15 @@
     --main-bg-color: #005844;
     --second-bg-color: #c0b487;
     --trigger-color: #e6ab39;
-    box-sizing: border-box;
+    --url-features-one: url("../img/christmas-tree.svg");    
+    --url-features-two: url("../img/christmas-decorations.svg");    
+    --url-features-three: url("../img/flowers.svg");    
+    --url-features-four: url("../img/delivery-truck.svg");    
 }
 
+html{
+    box-sizing: border-box;
+}
 
 *, *::before, *::after {
     box-sizing: inherit;
@@ -77,6 +83,18 @@ button{
 
 .hide {
     display: none;
+}
+
+.visually-hidden{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 @media (max-width: 1440px){
