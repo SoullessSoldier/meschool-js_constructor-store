@@ -39,3 +39,10 @@ Footer\
 Полезные ссылки\
 *SVGOMG* - https://chrome.google.com/webstore/detail/svgomg/lalnbaaeaipofapafgocoakbhlpbnocl
 
+## День 4 ##
+Пишем скрипты, оживляем сайт\
+Burger меню\
+Модальное окно\
+
+Фейковый API\
+*https://jsonplaceholder.typicode.com/posts*
