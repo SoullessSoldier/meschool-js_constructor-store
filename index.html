@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/burger.js" defer></script>
     <script src="js/modal.js" defer></script>
+    <script src="js/timer.js" defer></script>
 </head>
 
 <body>
@@ -78,7 +79,7 @@
         </section>
         <section class="product" id="one">
             <div class="container product__container">
-                <div class="product-content">
+                <div class="product__content">
                     <h2 class="product__title">Пихта Фразера</h2>
                     <p class="product__features">Пихта Фразера чаще использовалась в качестве рождественской ёлки Белого
                         дома</p>
@@ -95,7 +96,7 @@
         </section>
         <section class="product" id="two">
             <div class="container product__container">
-                <div class="product-content">
+                <div class="product__content">
                     <h2 class="product__title">Русская ель</h2>
                     <p class="product__features">Русская ель — наиболее традиционная разновидность рождественских
                         деревьев, которую можно встретить
@@ -248,7 +249,7 @@
                 </svg>
             </button>
             <h2 class="modal__title">Оформить заказ</h2>
-            <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <form class="modal__form" action="" method="post">
                 <label class="modal__label">
                     <span class="modal__label-text">ФИО</span>
                     <input class="modal__input" name="bio" type="text" required placeholder="Введите ваше ФИО">
@@ -260,7 +261,7 @@
                 <button class="modal__button">Заказать звонок</button>
                 <input class="modal__order" type="hidden" name="order">
             </form>
-                
+            <span class="modal__result"></span>    
         </div>
     </div>
 
